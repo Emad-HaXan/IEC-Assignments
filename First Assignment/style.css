@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgba(0, 168, 255,0.2) 50%, rgba(0, 168, 255,0.5), rgba(0, 168, 255,0.75), rgba(0, 168, 255,1));
+    background-repeat: no-repeat;
+    color: #2f3640;
+}
+
+table
+{
+    width: 100%;
+}
+
+button
+{
+    background-color: transparent;
+    color: #2f3640;
+    border: 2px solid #2f3640;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+header table tr #logo
+{
+    padding: 20px 50px;
+}
+
+header table tr #logo img
+{
+    width: 20%;
+}
+
+header table tr #nav
+{
+    width: 50%;
+}
+
+header table tr #nav a
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2f3640;
+    text-decoration: none;
+}
+
+main table tr td
+{
+    width: 50%;
+    padding: 10px 80px;
+}
+
+main table tr td h1
+{
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+
+main table tr td p
+{
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+main table tr td img
+{
+    width: 90%;
+}
+
+footer table
+{
+    width: 50%;
+    padding: 0 50px;
+    margin-top: 40px;
+}
+
+footer table tr td span
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer table tr #social
+{
+    width: 80%;
+}
+
+footer table tr #social table
+{
+    margin: 0;
+    padding: 0;
+}
+
+footer table tr #social table tr td
+{
+    width: 20%;
+}
